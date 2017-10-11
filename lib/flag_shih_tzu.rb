@@ -19,6 +19,7 @@ module FlagShihTzu
   class NoSuchFlagQueryModeException < Exception; end
   class NoSuchFlagException < Exception; end
   class DuplicateFlagColumnException < Exception; end
+  # hoge
 
   module ClassMethods
     def has_flags(*args)
